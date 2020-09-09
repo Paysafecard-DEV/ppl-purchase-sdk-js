@@ -1,0 +1,32 @@
+{
+  "name": "paysafe-paylater-client-sdk-javascript",
+  "version": "0.1.0",
+  "description": "PaySafe Pay Later client SDK",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "jest test/",
+    "build": "rollup -c rollup.config.js",
+    "# version": "npm run build && git add -A dist",
+    "# postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Paysafecard-DEV/ppl-purchase-sdk"
+  },
+  "author": "Paysafe Pay Later",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "moxios": "^0.4.0",
+    "rollup": "^2.26.4",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-cleanup": "^3.1.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.0"
+  }
+}
